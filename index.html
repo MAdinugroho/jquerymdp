@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>My Page</title>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.minn.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'> 
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/main.js"></script>
+	  
+</head>
+<body >
+<div data-role="page" id="pageone" class="wrapper";>
+	
+        <div data-role="header" data-position="fixed">
+        	<h1>Kelompok 04</h1>
+		</div><!-- /header -->
+ 
+        <div role="main" class="ui-content">
+        	<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <center><img src="img/cerc.jpg" style="width:250px;height:250px"></center>
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <center><img src="img/test1.jpg" style="width:250px;height:250px"></center>
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <center><img src="img/test2.jpg" style="width:250px;height:250px"></center>
+    <div class="text">Caption Three</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+			<p>Apa daya baru belajar</p>			
+        	
+        	<a href="#pagetwo" data-role="button" >Start</a> <!-- ketika tombol start diklik maka akan berganti halaman dengan nama halaman #pagetwo -->			</div> 
+        <!-- /content -->
+	</div>
+
+	<div data-role="page" id="pagetwo" class="wrapper";>
+	
+        <div data-role="header" data-add-back-btn="true" data-position="fixed " >
+        	<h1>Kelompok 04</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#pageone" data-icon="home">Home</a></li>
+					<li><a href="#pagethree" data-icon="info">About</a></li>
+				</ul>
+			</div>
+		</div><!-- /header -->
+ 
+        <div role="main" class="ui-content">
+        	<center><img src="img/hop.png" style="width:250px;height:250px"><center> 
+        	
+        	<a href="#mypanel" data-role="button" >Start</a> <!-- ketika tombol start diklik maka akan berganti halaman dengan nama halaman #pagetwo -->			</div> 
+        <!-- /content -->
+	</div>
+	
+	<div data-role="page" id="pagethree" class="wrapper";>
+	
+        <div data-role="header" data-add-back-btn="true" data-position="fixed">
+        	<h1>Kelompok 04</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#pagetwo" data-icon="home">Home</a></li>
+					<li><a href="#pagethree" data-icon="info">About</a></li>
+				</ul>
+			</div>
+		</div><!-- /header -->
+ 
+        <div role="main" class="ui-content">
+        	<ul data-role="listview">
+				<li><a href="#adi">Adinugroho</a></li>
+				<li><a href="#faris">Faris Lukman</a></li>
+				</ul>
+	</div>
+	</div>
+	
+	<div data-role="page" id="adi" class="wrapper";>
+	
+        <div data-role="header" data-add-back-btn="true" data-position="fixed">
+        	<h1>Kelompok 04</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#pagetwo" data-icon="home">Home</a></li>
+					<li><a href="#pagethree" data-icon="info">About</a></li>
+				</ul>
+			</div>
+		</div><!-- /header -->
+ 
+        <div role="main" class="ui-content">
+        	<center><img src="img/cerc.jpg" style="width:250px;height:250px"><center>
+			<p>Nama: Muhammad Adinugroho</p>
+			<p>Nim : 21120115140063</p>
+			<p>Shift: 1</p>
+	</div>
+	</div>
+	
+	<div data-role="page" id="faris" class="wrapper";>
+	
+        <div data-role="header" data-add-back-btn="true" data-position="fixed">
+        	<h1>Kelompok 04</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#pagetwo" data-icon="home">Home</a></li>
+					<li><a href="#pagethree" data-icon="info">About</a></li>
+				</ul>
+			</div>
+		</div><!-- /header -->
+ 
+        <div role="main" class="ui-content">
+        	<center><img src="img/cerc.jpg" style="width:250px;height:250px"><center>
+			<p>Nama: Faris Lukman</p>
+			<p>Nim : 21120115140079</p>
+			<p>Shift: 1</p>
+	</div>
+	</div>
+	
+	
+</body>
+</html>
